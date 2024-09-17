@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #e0e0e0; /* Tom de cinza mais claro */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aprovado {
+  background-color: #4caf50;
+}
+
+.aprovado-com-pf {
+  background-color: #4caf50;
+}
+
+.reprovado {
+  background-color: #f44336;
+  margin: 0;
+  padding: 0;
+}
+
+.avaliacao-final {
+  background-color: #2196f3;
+  margin: 0;
+  padding: 0;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 16px;
+  color: #333;
+}
+
+input[type="number"] {
+  width: calc(100% - 10px);
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="button"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+input[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+
+div p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: red;
+}
+
+div label {
+  font-weight: bold;
+  font-size: 16px;
+}
